@@ -11,8 +11,10 @@ PPM Driven TX module (see below)
 
 ## Installation
 Search for tutorials for on up Arduino so you can at least download sketches and upload them to your arduino. You will also need to be able to install arduino libraries such as the usb host shield library here: https://github.com/felis/USB_Host_Shield_2.0/archive/master.zip 
+
 I will not cover any of these steps as they are covered in depth in many other places if you search for it.
 The only two things I will cover are for cheap cloned boards from China. The clones will often use a different driver (CH340). Lots of sites will cover how to install this.
+
 The clone usb shields may need some additional jumpers bridged or they will not work. 
 See https://esp8266-notes.blogspot.com/2017/08/defective-arduino-usb-host-shield-boards.html
 Contrary to the article, these boards are not defective, but rather they just don't come fully configured and ready to go from the factory. Welcome to the hobby!
@@ -22,7 +24,9 @@ With the module lights and dials facing you and the antenna facing up, you will 
 
 ## Configuration
 The code has the configuration mapped to what suits me. It can, however, be easily changed with very basic programming knowledge to do what you want. Learn how to use the serial monitor tool in arduino will allow you to figure out the numbers assigned to the buttons on your joystick which can be mapped (uncomment print statements in JoystickEvents::OnGamePadChanged) By changing some of the if statements below, you will be able to remap the different functions for arming, disarming, and other modes. You can also add other modes/functionality to suit your needs as well. 
+
 By default, button 2 is for turtle mode, button 3 is for acro and 4 is for horizon. Arming is button 12 and disarming is button 11. Throttle is done with the slider and the rest is obvious (yaw done with twist).
+
 The following are my modes in betaflight:
 aux 0 0 0 1300 1700 0 0
 aux 1 2 1 1300 1700 0 0
@@ -41,6 +45,7 @@ https://www.banggood.com/IRangeX-IRX4-Plus-2_4G-CC2500-NRF24L01-A7105-CYRF6936-4
 
 ## Inspired by
 https://github.com/DroneMesh/USB_PPM
+
 Code is, however, based off of the le3dp example in the shield library and the ppm encoder code by David Hasko.
 https://github.com/felis/USB_Host_Shield_2.0/tree/master/examples/HID/le3dp
 https://github.com/DzikuVx/ppm_encoder
