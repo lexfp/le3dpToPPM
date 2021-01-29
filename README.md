@@ -1,4 +1,4 @@
-#Logitech Extreme 3d pro to PPM
+# Logitech Extreme 3d pro to PPM
 Use your Logitech joystick to fly quads/fixed wing.
 While this does work with crossfire, I would not use it to fly near people or do long range (unless you're flying over a desert where no one can get hurt).
 This is not well tested software, so use at your own risk. Please use your common sense and do not use this in a way that can potentially cause injuries to others. 
