@@ -22,6 +22,7 @@ See https://esp8266-notes.blogspot.com/2017/08/defective-arduino-usb-host-shield
 Contrary to the article, these boards are not defective, but rather they just don't come fully configured and ready to go from the factory. Welcome to the hobby!
 
 ## Wiring
+See wiring.jpg image in codebase.
 With the module lights and dials facing you and the antenna facing up, you will find 5 pins on the bottom right. The top pin on the module will go to pin 3 on your arduino board (you can change that in the code). Pins 3 on the module is for your battery + and pin 4 is ground. I wired them directly to my arduino battery terminal so that everything is powered once I power on the arduino. I believe that they can both take 3s although I've opted to use 2s. You can disregard the other pins.
 
 ## Configuration
