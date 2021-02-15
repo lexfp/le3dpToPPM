@@ -4,6 +4,9 @@ While this does work with crossfire, I would not use it to fly near people or do
 This is not well tested software, so use at your own risk. Please use your common sense and do not use this in a way that can potentially cause injuries to others. 
 
  https://youtu.be/3cB8Vwtuyw8
+ 
+## License
+This code is in part based on the examples found in https://github.com/felis/USB_Host_Shield_2.0 and is thus released under the same GNU General Public License.
 
 ## Requirements
 Logitech Extreme 3d pro joystick
