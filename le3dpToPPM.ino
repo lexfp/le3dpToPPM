@@ -12,6 +12,12 @@
 #endif
 #include <SPI.h>
 
+/**
+ * This code will map certain buttons from the Logitech extreme 3d pro joystick to a PPM module
+ * Released under the GNU General Public License
+ * @Author lexfp
+ */
+
 //PPM config values
 #define FRAME_LENGTH 22500  //set the PPM frame length in microseconds (1ms = 1000µs)
 #define PULSE_LENGTH 300  //set the pulse length
