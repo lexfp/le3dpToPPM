@@ -15,7 +15,7 @@
 /**
  * This code will map certain buttons from the Logitech extreme 3d pro joystick to a PPM module
  * Released under the GNU General Public License
- * @Author lexfp
+ * @Author github.com/lexfp
  */
 
 //PPM config values

@@ -3,7 +3,7 @@
 /**
  * Button to PPM Mapping - Maps the joystick buttons and actions to different PPM values
  * Released under the GNU General Public License
- * @Author lexfp
+ * @Author github.com/lexfp
  */
 BtnPPMMap::BtnPPMMap()
 {
