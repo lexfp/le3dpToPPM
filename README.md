@@ -9,10 +9,10 @@ This is not well tested software, so use at your own risk. Please use your commo
 This code is in part based on the examples found in https://github.com/felis/USB_Host_Shield_2.0 and is thus released under the same GNU General Public License.
 
 ## Requirements
-Logitech Extreme 3d pro joystick
-Arduino Uno (or equivalent clone)
-Arduino USB Shield
-PPM Driven TX module (see below)
+Logitech Extreme 3d pro joystick  
+Arduino Uno (or equivalent clone)  
+Arduino USB Shield  
+PPM Driven TX module (see below)  
 
 ## Installation
 Search for tutorials for on up Arduino so you can at least download sketches and upload them to your arduino. You will also need to be able to install arduino libraries such as the usb host shield library here:   
